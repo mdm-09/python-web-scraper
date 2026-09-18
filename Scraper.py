@@ -24,6 +24,6 @@ if response.status_code == 200:
 
             writer.writerow([title, price, rating])
 
-    print("Updated CSV generated with Ratings!")
+    print("CSV generated with Ratings!")
 else:
     print("Error:", response.status_code)
